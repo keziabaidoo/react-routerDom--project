@@ -1,0 +1,46 @@
+.header {
+  padding: 1rem;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  border-bottom: 1px solid whitesmoke !important;
+  background-color: #d4bcb2 !important;
+
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 1rem !;
+
+}
+
+h2 {
+  color: green !important;
+  font-family: fantasy;
+  font-size: 1rem !important;
+}
+
+.header ul a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.active:hover {
+  color: green !important;
+}
+
+.btn {
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.6rem !important;
+  background-color: transparent !important;
+  border: 1px solid rgb(208, 202, 202) !important;
+  color: whitesmoke;
+  cursor: pointer;
+  color: green !important;
+  font-size: 0.7rem !important;
+}
